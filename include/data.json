@@ -1,0 +1,109 @@
+
+[
+    {
+        "ROM": "64 GB ROM",
+        "Display": "15.49 cm (6.1 inch) Display",
+        "Camera": "12MP Wide Camera | 7MP Front Camera",
+        "OS": "iOS 12",
+        "Warranty": "Brand Warranty of 1 Year"
+    },
+    {
+        "Brand" : "Apple",	
+        "Model" : "iPhone 12 Pro",
+        "Price in India" : "竄ｹ106,900",
+        "Release date" : "13th October 2020",
+        "Launched in India"	 : "Yes",
+        "Form factor" : "Touchscreen",
+        "Dimensions (mm)" :	"146.70 x 71.50 x 7.40",
+        "Weight (g)" : "189",
+        "IP rating" : "IP68",
+        "Removable battery"	: "No",
+        "Fast charging" : "Proprietary",
+        "Wireless charging"	: "Yes",
+        "Colours" : "Gold, Graphite, Pacific Blue, Silver"
+    },
+    // General
+    {
+        "Brand" :	"Apple",
+        "Model":"iPhone 12 Pro",
+        "Price in India":"竄ｹ106,900",
+        "Release date" :	"13th October 2020",
+        "Launched in India":"Yes",
+        "Form factor":"Touchscreen",
+        "Dimensions (mm)":"146.70 x 71.50 x 7.40",
+        "Weight (g)":"189",
+        "IP rating":"IP68",
+        "Removable battery":"No",
+        "Fast charging":"Proprietary",
+        "Wireless charging":"Yes",
+        "Colours":"Gold, Graphite, Pacific Blue, Silver"
+    },
+    // Display	
+    {
+
+        "Screen size (inches)":	"6.1",
+        "Touchscreen": "Yes",
+        "Resolution":	"1170x2532 pixels",
+        "Protection type":	"Other",
+        "Pixels per inch (PPI)": "460",
+    }
+    // Hardware	
+    {
+        "Processor make":	"Apple A14 Bionic",
+        "Internal storage":	"64GB",
+        "Expandable storage":	"No"
+    }  
+    // Camera	
+    {
+        "Rear camera":	"12-megapixel (f/1.6) + 12-megapixel (f/2.4) + 12-megapixel (f/2.0)",
+        "Rear autofocus":	"Yes",
+        "Rear flash":	"Yes",
+        "Front camera":	"12-megapixel (f/2.2)"
+    }
+    // Software	
+    {
+        "Operating system":	"iOS 14"
+    }
+    // Connectivity	
+    {
+        "Wi-Fi":	"Yes",
+        "Wi-Fi standards supported":	"802.11 a/b/g/n/ac/Yes",
+        "GPS":	"Yes",
+        "Bluetooth":	"Yes, v 5.00",
+        "NFC":	"Yes",
+        "Lightning":	"Yes",
+        "Headphones":	"Lightning",
+        "Number of SIMs":	"2"
+    }
+    // SIM 1	
+    {
+        "SIM Type":	"Nano-SIM",
+        "GSM/CDMA":	"GSM",
+        "3G":	"Yes",
+        "4G/LTE":	"Yes",
+        "5G":	"Yes",
+        "Supports 4G in India (Band 40)":	"Yes"
+    }
+    // SIM 2	
+    {
+        "SIM Type":	"eSIM",
+        "GSM/CDMA":"GSM",
+        "3G":"Yes",
+        "4G/LTE":"Yes",
+        "5G":"Yes",
+        "Supports 4G in India (Band 40)":"Yes"
+    }
+    // Sensors	
+    {
+        "Face unlock":	"Yes",
+        "3D face recognition":	"Yes",
+        "Compass/ Magnetometer":	"Yes",
+        "Proximity sensor":	"Yes",
+        "Accelerometer":	"Yes",
+        "Ambient light sensor":	"Yes",
+        "Gyroscope":	"Yes",
+        "Barometer":	"Yes"
+    }
+    
+
+]

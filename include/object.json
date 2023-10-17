@@ -1,0 +1,53 @@
+{
+    "Cart" : {
+        
+    },
+    "Cart Object" : {
+        "Order Detail" : {
+            "Order Id" : null,
+            "Order Status" : null,
+            "Order Time" : null
+        },
+        "Product Detail" : {
+            "Product Id" : null,
+            "Product Name" : null,
+            "Category Id" : null,
+            "Product Color" : null,
+            "Product Price" : null,
+            "Product Image" : null,
+            "Product Rating" : null
+        },
+        "Customer Detail" : {
+            "Customer Name" : null,
+            "Customer Phone" : null,
+            "Customer Email" : null,
+            "Customer Address" : {
+                "Full Address" : null,
+                "City" : null,
+                "State" : null,
+                "Pincode" : null
+            } 
+        },
+        "Seller Detail" : null,
+        "Invoice Detail" : {
+            "Invoice Type" : null,
+            "Order Price" : null,
+            "Order Delivery" : null,
+            "Order Discount" : null,
+            "Order Total" : null,
+            "Order Paid" : null
+        } 
+    },
+    "Order Object" : {
+        "Product Id" : "",
+        "Category Id" : "",
+        "Seller Info" : "",
+        "Product Detail" : ""
+    },
+    "Card Details" : {
+        "Card Holder Name" : null,
+        "Card Number" : null,
+        "Card Expiry" : null,
+        "Card Type" : null
+    }
+}

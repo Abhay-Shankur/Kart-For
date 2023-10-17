@@ -1,0 +1,310 @@
+#content {
+    height: 100vh;
+    width: 95%;
+    margin: 3% auto;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px darkslategray;
+}
+#content-side {
+    width: 100px;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.1);
+    box-shadow: 5px 0px 20px rgba(128, 128, 128, 0.5);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.content-side-item {
+    width: 100%;
+    height: fit-content;
+    padding: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+}
+.col-acc-blue {
+    /* background-color: rgb(0 90 190); */
+    background-image: linear-gradient(to bottom, rgb(0,90,190), rgb(90, 200, 253));
+}
+.col-acc-rig-blue {
+    /* background-color: rgb(0 90 190); */
+    background-image: linear-gradient(to  right, rgb(0, 110, 255), rgb(90, 200, 253));
+}
+.icons {
+    font-size: xx-large;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.active-tab {
+    /* background-color: whitesmoke;
+    color: rgb(0 90 190); */
+    background-color: transparent;
+    color: white;
+}
+.content-side-item.col-acc-blue i {
+    background-color: transparent;
+    color: whitesmoke;
+}
+#content-area {
+    width: calc(100% - 100px);
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+#content-area-head {
+    width: 100%;
+    height: 20%;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+#content-nobalance {
+    padding: 1%;
+    color: beige;
+    font-size: large;
+    font-weight: bolder;
+    margin: auto;
+}
+#content-nobalance a:-webkit-any-link {
+    color: beige;
+    cursor: pointer;
+    font-size: x-large;
+    text-decoration: underline;
+}
+#content-balance {
+    height: 80%;
+    width: 40%;
+    background-color: rgba(245, 245, 245, 0.8);
+    border-radius: 10px;
+    padding: 1%;
+    margin: auto 2%;
+}
+#content-balance-head {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#content-balance-body {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+#content-area-body {
+    width: 100%;
+    height: 80%;
+    border-bottom-right-radius: 20px;
+    padding: 2%;
+}
+#content-area-body-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.tab-form {
+    width: fit-content;
+    height: fit-content;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* background-image: linear-gradient(to bottom, rgba(162, 0, 255, 0.4) , rgba(0, 195, 255, 0.7)); */
+    background-image: linear-gradient(to top, rgb(38, 100, 179), rgb(90, 200, 253));
+}
+/* #add-amount-tab-form,   
+#add-card-tab-form,
+#add-password-tab-form {
+    display: none;
+} */
+.tab-form-head {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: darkslategray;
+}
+.tab-form-body {
+    padding: 2%;
+}
+.tab-form-body .tab-form-body-items {
+    padding: 2%;
+    margin: 2%;
+}
+.tab-form-body .tab-form-body-items label{
+    font-weight: bold;
+    color: darkslategray;
+}
+.fa-info-circle {
+    color: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.tab-form-body .tab-form-body-items input {
+    border-style: solid;
+    margin: auto;
+}
+.tab-form-body .tab-form-body-items input[type="radio" i] {
+    width: fit-content;
+    height: 15px;
+    margin: 1%;
+}
+.tab-form-body .tab-form-body-items input[type="submit" i] {
+    display: flex;
+    justify-content: center;
+    border-style: none;
+}
+#card-info {
+    width: fit-content;
+    height: fit-content;
+    background-image: linear-gradient(to bottom right, rgb(162, 0, 255) , rgb(0, 255, 220));
+    border-radius: 20px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    box-shadow: 0px 0px 25px 5px rgb(29, 48, 48);
+}
+#card-info-name {
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    display: flex;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    align-items: center;
+}
+#card-info-number {
+    width: 100%;
+    /* height: 20%; */
+    height: fit-content;
+    /* padding: 1%; */
+    display: flex;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    align-items: center;
+}
+#card-info-expiry {
+    width: 100%;
+    /* height: 15%; */
+    height: fit-content;
+    padding: 1%;
+    display: flex;
+    font-size: smaller;
+    font-weight: bolder;
+    color: white;
+    align-items: center;
+}
+#card-info-card-type {
+    width: 100%;
+    /* height: 30%; */
+    height: fit-content;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card-icon {
+    font-size: xxx-large;
+    align-self: flex-end;
+    color: rgb(162, 0, 255);
+}
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#overlaymsg {
+    width: 40%;
+    height: fit-content;
+    background-color: rgba(128, 128, 128, 0.8);
+    color: lavender;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2.5px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#overlaymsg-head {
+    height: fit-content;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+#overlaymsg-head i{
+    cursor: pointer;
+}
+#overlaymsg-body {
+    height: fit-content;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
+/* Responsive */
+/* For Mobile device */
+@media screen and (max-width: 479px) {
+    #content {
+        flex-direction: column;
+    }
+    #content-side {
+        height: 100px;
+        width: 100%;
+        flex-direction: row;
+    }
+    .content-side-item {
+        width: fit-content;
+        height: 100%;
+        flex: 1;
+        padding: 0;
+    }
+    #content-area {
+        width: 100%;
+    }
+    #content-balance {
+        width: fit-content;
+        padding: 2%;
+    }
+    #content-area-body-content {
+        align-items: center;
+    }
+    #card-info {
+        width: 90%;
+        height: fit-content;
+        padding: 5%;
+    }
+    #card-info-name {
+        font-size: larger;
+    }
+    #card-info-number {
+        font-size: larger;
+    }
+}
